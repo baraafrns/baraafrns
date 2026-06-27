@@ -78,7 +78,7 @@ export const education = {
 };
 
 export const music = {
-  title: "Lofi Chill Vibes",
+  title: "Duvet - Boʻa",
   url: "https://cdn.pixabay.com/audio/2022/05/27/audio_1808fbf07a.mp3"
 };
 
@@ -87,5 +87,5 @@ export const biodata = {
   role: "Web & Discord Developer",
   location: "Bogor, Indonesia",
   hobbies: ["Coding", "Basketball", "Gaming", "Music"],
-  avatar: ""
+  avatar: "https://raw.githubusercontent.com/baraafrns/kukukukuk/5a29979893306e7a4b075f753fe60b4213ecbdeb/profile.jpeg"
 };
