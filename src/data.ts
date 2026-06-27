@@ -77,10 +77,28 @@ export const education = {
   major: "Pengembangan Perangkat Lunak Dan Game"
 };
 
-export const music = {
-  title: "Duvet - Boʻa",
-  url: "https://cdn.pixabay.com/audio/2022/05/27/audio_1808fbf07a.mp3"
-};
+export const playlist = [
+    {
+        title: "Boâ - Duvet",
+            url: "/playlist/Boâ_Duvet.mp3"
+              },
+                {
+                    title: "Blue - Yung Kai",
+                        url: "/playlist/Blue.mp3"
+                          },
+                            {
+                                title: "Evergreen - Richy Mitch & TCM",
+                                    url: "/playlist/evergreen.mp3"
+                                      },
+                                        {
+                                            title: "Loving is Easy - Rex Orange County",
+                                                url: "/playlist/loving_is_easy.mp3"
+                                                  },
+                                                    {
+                                                        title: "Sunsetz - Cigarettes After Sex",
+                                                            url: "/playlist/Sunsetz_CAS.mp3"
+                                                              }
+                                                              ];
 
 export const biodata = {
   name: "Baraafrns",
