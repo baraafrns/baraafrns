@@ -64,7 +64,7 @@ export const projects = [
   }
 ];
 
-export const socials =
+export const socials = {
   instagram: "https://www.instagram.com/barafrns?igsh=MXI1aHk3eXE3OGQ0Zw==",
   whatsapp: "https://wa.me/+6289601348818",
   discord: "https://discord.com/",
