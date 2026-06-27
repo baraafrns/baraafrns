@@ -65,10 +65,10 @@ export const projects = [
 ];
 
 export const socials = {
-  instagram: "https://instagram.com/",
-  whatsapp: "https://wa.me/6281234567890", // Replace with real number later
+  instagram: "https://www.instagram.com/barafrns?igsh=MXI1aHk3eXE3OGQ0Zw==",
+  whatsapp: "https://wa.me/+6289601348818",
   discord: "https://discord.com/",
-  github: "https://github.com/"
+  github: "https://discord.gg/Nh2bveBr"
 };
 
 export const education = {
@@ -79,13 +79,13 @@ export const education = {
 
 export const music = {
   title: "Lofi Chill Vibes",
-  url: "https://cdn.pixabay.com/audio/2022/05/27/audio_1808fbf07a.mp3" // Change this URL to your own music link (.mp3)
+  url: "https://cdn.pixabay.com/audio/2022/05/27/audio_1808fbf07a.mp3"
 };
 
 export const biodata = {
-  name: "Software Developer",
-  role: "Full-Stack Developer",
+  name: "Baraafrns",
+  role: "Web & Discord Developer",
   location: "Bogor, Indonesia",
-  hobbies: ["Coding", "Reading", "Gaming", "Music"],
-  avatar: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=400&q=80"
+  hobbies: ["Coding", "Basketball", "Gaming", "Music"],
+  avatar: ""
 };
