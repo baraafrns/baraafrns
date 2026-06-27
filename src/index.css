@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --color-primary-dark: #1A1264;
+  --color-primary-light: #EBEBDF;
+}
+
+@layer base {
+  :root {
+    --bg-color: #EBEBDF;
+    --text-color: #1A1264;
+    --glass-bg: rgba(255, 255, 255, 0.4);
+    --glass-border: rgba(255, 255, 255, 0.6);
+    --glass-shadow: rgba(26, 18, 100, 0.05);
+    --glass-highlight: rgba(255, 255, 255, 0.8);
+  }
+
+  .dark {
+    --bg-color: #1A1264;
+    --text-color: #EBEBDF;
+    --glass-bg: rgba(235, 235, 223, 0.05);
+    --glass-border: rgba(235, 235, 223, 0.1);
+    --glass-shadow: rgba(0, 0, 0, 0.2);
+    --glass-highlight: rgba(235, 235, 223, 0.15);
+  }
+
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.5s ease, color 0.5s ease;
+    overflow-x: hidden;
+  }
+}
+
+.liquid-glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(32px) saturate(180%);
+  -webkit-backdrop-filter: blur(32px) saturate(180%);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 8px 32px 0 var(--glass-shadow), inset 0 1px 1px 0 var(--glass-highlight);
+}
+
+.liquid-glass-strong {
+  background: var(--glass-bg);
+  backdrop-filter: blur(48px) saturate(200%);
+  -webkit-backdrop-filter: blur(48px) saturate(200%);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 12px 48px 0 var(--glass-shadow), inset 0 1px 1px 0 var(--glass-highlight);
+}
+
+/* Hide default cursor on desktop since we have a custom one */
+@media (min-width: 768px) {
+  body {
+    cursor: none;
+  }
+  a, button, input, textarea, select {
+    cursor: none;
+  }
+}
