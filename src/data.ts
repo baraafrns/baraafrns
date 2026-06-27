@@ -36,7 +36,7 @@ export const projects = [
     description: "Personal web portfolio",
     tech: ["HTML", "JavaScript", "CSS"],
     image: "https://raw.githubusercontent.com/baraafrns/imagedump/3168e43fddc4e75a57bf563a75b98d551867d555/portoweb.jpg",
-    featured: true,
+    featured: false,
   },
   {
     id: 4,
@@ -44,14 +44,14 @@ export const projects = [
     description: "Economy Bot, with lots of essentials feature and side battle.",
     tech: ["PYTHON", "SQLITE", "DOCKER"],
     image: "https://raw.githubusercontent.com/baraafrns/imagedump/3168e43fddc4e75a57bf563a75b98d551867d555/gruvale.jpg",
-    featured: false,
+    featured: true,
   },
   {
     id: 5,
     title: "Cafe Website",
     description: "Cafe web that can handle table orders, summary and sale reports.",
     tech: ["HTML", "JavaScript", "CSS", "MySQL", "Python"],
-    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80",
+    image: "https://raw.githubusercontent.com/baraafrns/imagedump/3168e43fddc4e75a57bf563a75b98d551867d555/stacoffee.jpg",
     featured: false,
   },
   {
@@ -59,7 +59,7 @@ export const projects = [
     title: "Ongoing ???",
     description: "Ongoing Project, will be here soon",
     tech: ["Laravel", "Php", "React"],
-    image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80",
+    image: "",
     featured: false,
   }
 ];
