@@ -1,6 +1,0 @@
-{
-  "name": "Portfolio",
-  "description": "Elegant and minimalist personal web portfolio with Liquid Glass theme.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
